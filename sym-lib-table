@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SlimeVR")(type "KiCad")(uri "${KIPRJMOD}/SlimeVR.kicad_sym")(options "")(descr ""))
+)

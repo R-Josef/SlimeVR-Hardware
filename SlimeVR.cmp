@@ -1,0 +1,83 @@
+Cmp-Mod V01 Created by PcbNew   date = 2023/2/19 3:53:46
+
+BeginCmp
+TimeStamp = b4733ab8-689e-45ea-bade-aaeaaca51854
+Path = /6aae2a21-d5fa-4b8e-94ec-2b85cf9d45f6
+Reference = JP1;
+ValeurCmp = Jumper_2_Open;
+IdModule  = Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = c3e4ada3-8b68-4e33-a351-f1cd99096801
+Path = /916add8d-cb97-4e04-b06d-ad6c858b0813
+Reference = R1;
+ValeurCmp = 180k;
+IdModule  = Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = d5342c45-d0b1-4900-8be6-cc80d16c6df9
+Path = /cebd36de-bd2d-4b41-a159-33d14ae8593e
+Reference = BT1;
+ValeurCmp = Battery_Cell;
+IdModule  = Connector_Molex:Molex_PicoBlade_53047-0210_1x02_P1.25mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 839f063f-a3d7-48e9-8200-d8b8dbd53973
+Path = /6fc6ab55-1979-48b3-af1b-05ae2ea6fa23
+Reference = D2;
+ValeurCmp = 1N5817;
+IdModule  = Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = af6226ff-dcea-4d23-b2e6-279eab29e5d2
+Path = /7a3ce1d7-8aa4-49ff-a8d8-744f2594b85b
+Reference = SM1;
+ValeurCmp = MSK-12D19-1P2T;
+IdModule  = SlimeVR:MSK-12D19-1P2T;
+EndCmp
+
+BeginCmp
+TimeStamp = ce8ba42a-0fee-4a7a-9e92-5be564aaecc3
+Path = /f93b572d-44de-4b18-b342-d1c7cf4806e2
+Reference = D1;
+ValeurCmp = 1N5817;
+IdModule  = Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 3f097cb1-1296-4009-a7d6-93110005b64c
+Path = /43699737-993f-485f-934a-8c15d2343526
+Reference = U3;
+ValeurCmp = TP4056;
+IdModule  = SlimeVR:TP4056_MAO;
+EndCmp
+
+BeginCmp
+TimeStamp = 6ea9349b-c1ca-48c0-9982-27a341aeaca4
+Path = /a82ddb1f-9e4d-4ae8-9b0c-53142a53a4d9
+Reference = U1;
+ValeurCmp = ESP8266-D1-Mini;
+IdModule  = SlimeVR:WEMOS_D1_mini_light;
+EndCmp
+
+BeginCmp
+TimeStamp = a7d624f7-667b-45b6-b53b-57eafbc07f83
+Path = /9113861b-fc39-4fc0-adc4-d09954731f08
+Reference = J1;
+ValeurCmp = Auxiliary_Tracker_Connector;
+IdModule  = SlimeVR:Molex_PicoBlade_53047-0510_1x05_P1.25mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = c887a39a-d7b2-45a2-b25a-97c45ee8a6a5
+Path = /62a52bbe-8ddb-4f56-9704-14b99cfee6a9
+Reference = U2;
+ValeurCmp = BNO08X;
+IdModule  = SlimeVR:BNO08X;
+EndCmp
+
+EndListe
