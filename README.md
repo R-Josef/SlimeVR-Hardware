@@ -2,6 +2,14 @@
 
 This is a SlimeVR hardware project, including a PCB file and case models.
 
+## Feature
+
+* Using modules instead of SMD, the parts are consistent with the [schematics of the official document](https://docs.slimevr.dev/diy/tracker-schematics.html)
+* The wiring method is consistent with the schematics of the official document too, no need to change the pin definition.
+* Battery sense
+* Charge diodes
+* Auxiliary tracker connector (optional)
+
 ## Build your own trackers
 
 ### Prepare the parts
@@ -40,6 +48,24 @@ Last step, put the tracker in the box and snap the lid on, you may need Hot-melt
 ### About auxiliary tracker
 
 If you need to connect a auxiliary tracker, you should use this case with a hole: [Case-AuxHole.stl](https://github.com/R-Josef/SlimeVR-Hardware/releases/latest/download/Case-AuxHole.stl) [Lip-AuxHole.stl](https://github.com/R-Josef/SlimeVR-Hardware/releases/latest/download/Lip-AuxHole.stl) , the extra hole is used to pass the connecting wire of the auxiliary tracker. In order to use the auxiliary tracker, you need also to solder J1 and JP1 to the PCB, then prepare a jumper cap, and insert the jumper cap on JP1.
+
+## Configuring the Firmware
+
+You can clone or download the firmware on [official frimware repo](https://github.com/SlimeVR/SlimeVR-Tracker-ESP) , if you don't use auxiliary tracker, just make the following changes in `defines.h` :
+
+```c
+#define BOARD BOARD_WEMOSD1MINI
+#define IMU_ROTATION DEG_180
+```
+
+If you use auxiliary tracker, then also need to make the following changes in `defines.h` :
+
+```c
+#define SECOND_IMU BNO085
+#define SECOND_IMU_ROTATION DEG_0
+```
+
+For other settings, please follow the [official documentation](https://docs.slimevr.dev/).
 
 ## View or modify source files
 
